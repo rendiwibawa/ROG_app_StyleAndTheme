@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyViewAndViews</string>
+    <string name="judul_text">Asus ROG </string>
+    <string name="deskripsi">Laptop gaming Asus ROG GL503GE EN023T ditenagai grafis GeForce GTX 1050 Ti yang mengandalkan 768 CUDA core berkecepatan 1493MHz dan Turbo hingga 1620MHz yang dipadukan dengan 48 TMUs, dan 32 ROPs. Kartu grafis GeForce GTX 1050Ti pada laptop ROG GL503GE EN023T dikawinkan dengan memori VRAM 4GB GDDR5 berkecepatan 7GHz dengan antarmuka memori 128-bit.</string>
+    <string name="layar">15.6-inch Full HD (1920×1080) TN panel, 120Hz, 3ms, 94% NTSC</string>
+    <string name="Chipset">Intel® Core™ i7-8750H Processor 2.2 GHz (9M Cache, up to 4.1 GHz) </string>
+    <string name="ram">8GB DDR4 2666MHz, upgradeable to 32GB DDR4</string>
+    <string name="memori">Storage SSHD Hard Disk 1TB 5400 rpm + 8GB SSD cache, dilengkapi M.2 slot untuk SSD</string>
+    <string name="Ukuran">Dimensi 38.4 x 26.2 x 2.5 cm (WxDxH) </string>
+    <string name="berat">Berat 2,6Kg</string>
+    <string name="Jumlah">3 Photos</string>
+    <string name="buy_now">BUY NOW</string>
+
+
+</resources>

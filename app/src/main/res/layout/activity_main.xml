@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crop"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/rog"
+                android:scaleType="fitXY"/>
+            <TextView
+                style="@style/TextContent.Small.White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:drawableLeft="@drawable/ic_collections_white_18dp"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/Jumlah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp.15.800.000"/>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginLeft="16dp"
+            android:text="Terlaris..."/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1"
+            android:padding="16dp"
+            android:text="@string/deskripsi"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginLeft="16dp"
+            android:text="Spesifikasi..."/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text="Layar"/>
+            <TextView
+                android:layout_weight="1"
+                style="@style/TextSpec.Field"
+                android:text="@string/layar"/>
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Processor"/>
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/TextSpec.Field"
+                    android:text="@string/Chipset"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Ram "/>
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/TextSpec.Field"
+                    android:text="@string/ram"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Memori"/>
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/TextSpec.Field"
+                    android:text="@string/memori"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Size "/>
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/TextSpec.Field"
+                    android:text="@string/Ukuran"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Berat" />
+
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/TextSpec.Field"
+                    android:text="@string/berat"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:textSize="17sp"
+            android:textColor="#757070"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owner..."/>
+        <RelativeLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/profil_me"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/aku"/>
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/profil_me"
+                android:layout_toRightOf="@+id/profil_me"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rendi Prayata Wibawa"/>
+            <TextView
+                style="@style/TextContent"
+                android:layout_toEndOf="@+id/profil_me"
+                android:layout_toRightOf="@+id/profil_me"
+                android:textSize="14sp"
+                android:textColor="#817F7F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEO of ROG .."/>
+
+        </RelativeLayout>
+
+        <Button
+            android:background="@drawable/btn"
+            android:textColor="#ffffff"
+            android:text="@string/buy_now"
+            android:textSize="20dp"
+            style="@style/ButtonGeneral" />
+
+    </LinearLayout>
+</ScrollView>
