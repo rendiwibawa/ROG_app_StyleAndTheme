@@ -21,7 +21,7 @@ Style terdefinisi dalam file xml sendiri. Anda bisa menemukannya di res →  val
 
 ## Tampil FULL
 
-![tampilan](WhatsApp Video 2020-09-10 at 19.15.22.mp4/gif.gif)
+![tampilan](WhatsApp Video 2020-09-10 at 19.15.22/mp4.mp4)
 
 > Kegunaan dari Theme dan Style diterapkan dalam membangun sebuah aplikasi di Android. Pengelompokan atribut untuk view yang sama akan lebih memudahkan Anda dalam menentukan dan menyeragamkan format view yang akan ditampilkan ke dalam layar. membuat codingan kita semakin ringkas 
 
