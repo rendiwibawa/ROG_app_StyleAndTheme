@@ -20,7 +20,7 @@ Style terdefinisi dalam file xml sendiri. Anda bisa menemukannya di res →  val
 >  TableLayout
 
 ## Tampilan App
-
+![Alt Text](https://github.com/rendiwibawa/ROG_app_StyleAndTheme/blob/master/WhatsApp-Video-2020-09-10-at-191.gif)
 ![Alt Text](https://github.com/rendiwibawa/ROG_app_StyleAndTheme/blob/master/WhatsApp%20Image%202020-09-10%20at%2019.14.44%20(1).jpeg)
 ![Alt Text](https://github.com/rendiwibawa/ROG_app_StyleAndTheme/blob/master/WhatsApp%20Image%202020-09-10%20at%2019.14.44.jpeg)
 
