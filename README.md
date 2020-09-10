@@ -19,9 +19,10 @@ Style terdefinisi dalam file xml sendiri. Anda bisa menemukannya di res →  val
 
 >  TableLayout
 
-## Tampil FULL
+## Tampilan App
 
-![tampilan](WhatsApp Video 2020-09-10 at 19.15.22/mp4.mp4)
+![Alt Text](https://github.com/rendiwibawa/ROG_app_StyleAndTheme/blob/master/WhatsApp%20Image%202020-09-10%20at%2019.14.44.jpeg)
+![Alt Text](https://github.com/rendiwibawa/ROG_app_StyleAndTheme/blob/master/WhatsApp%20Image%202020-09-10%20at%2019.14.44%20(1).jpeg)
 
 > Kegunaan dari Theme dan Style diterapkan dalam membangun sebuah aplikasi di Android. Pengelompokan atribut untuk view yang sama akan lebih memudahkan Anda dalam menentukan dan menyeragamkan format view yang akan ditampilkan ke dalam layar. membuat codingan kita semakin ringkas 
 
